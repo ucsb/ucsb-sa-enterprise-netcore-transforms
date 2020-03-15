@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Ucsb.Sa.Enterprise.NetCore.Transforms.Console": {
+      "commandName": "Project",
+      "commandLineArgs": "--source .\\SampleConfigs\\appSettings.json --transform .\\SampleConfigs\\appSettings.Int.json"
+    }
+  }
+}

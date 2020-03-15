@@ -28,14 +28,4 @@ Global
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {613E9A16-1FC2-4AB0-B4D8-B4894832A4B8}
 	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 1
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://dev.azure.com/sist-sa-ucsb
-		SccProjectUniqueName0 = Ucsb.Sa.Enterprise.NetCore.Transforms.Console\\Ucsb.Sa.Enterprise.NetCore.Transforms.Console.csproj
-		SccProjectName0 = Ucsb.Sa.Enterprise.NetCore.Transforms.Console
-		SccAuxPath0 = https://dev.azure.com/sist-sa-ucsb
-		SccLocalPath0 = Ucsb.Sa.Enterprise.NetCore.Transforms.Console
-		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-	EndGlobalSection
 EndGlobal

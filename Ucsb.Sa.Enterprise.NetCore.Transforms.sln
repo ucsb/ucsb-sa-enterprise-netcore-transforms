@@ -1,11 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.572
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ucsb.Sa.Enterprise.NetCore.Transforms.Console", "Ucsb.Sa.Enterprise.NetCore.Transforms.Console\Ucsb.Sa.Enterprise.NetCore.Transforms.Console.csproj", "{E163E9D2-618C-4BAD-BAC6-BCD0F6080E2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ucsb.Sa.Enterprise.NetCore.Transforms.Console", "src\Ucsb.Sa.Enterprise.NetCore.Transforms.Console\Ucsb.Sa.Enterprise.NetCore.Transforms.Console.csproj", "{E163E9D2-618C-4BAD-BAC6-BCD0F6080E2F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ucsb.Sa.Enterprise.NetCore.Transforms.Console.Tests", "Ucsb.Sa.Enterprise.NetCore.Transforms.Console.Tests\Ucsb.Sa.Enterprise.NetCore.Transforms.Console.Tests.csproj", "{2648800F-EFBD-4109-A22F-C04B4EDA3FD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ucsb.Sa.Enterprise.NetCore.Transforms.Console.Tests", "test\Ucsb.Sa.Enterprise.NetCore.Transforms.Console.Tests\Ucsb.Sa.Enterprise.NetCore.Transforms.Console.Tests.csproj", "{2648800F-EFBD-4109-A22F-C04B4EDA3FD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C24C7AF9-DB58-4EF4-9C31-C9386B835B21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{04BF78F7-8FC6-425A-A073-776FA96A7976}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6C1F3CE8-1715-47D0-A30A-956D58A85D8A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +33,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E163E9D2-618C-4BAD-BAC6-BCD0F6080E2F} = {C24C7AF9-DB58-4EF4-9C31-C9386B835B21}
+		{2648800F-EFBD-4109-A22F-C04B4EDA3FD9} = {04BF78F7-8FC6-425A-A073-776FA96A7976}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {613E9A16-1FC2-4AB0-B4D8-B4894832A4B8}
